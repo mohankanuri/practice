@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;pscl_trgl.java&apos; to &apos;Tutorial1/src/com.mohan&apos;&#x0D;&#x0A;- Original project: &apos;pasc_Trgle1&apos;&#x0D;&#x0A;- Destination element: &apos;Tutorial1/src/com.mohan&apos;&#x0D;&#x0A;- Original element: &apos;pasc_Trgle.pscl_trgl.java&apos;" description="Copy compilation unit" destination="=Tutorial1/src&lt;com.mohan" element1="/src&lt;pasc_Trgle{pscl_trgl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524864811104" units="1" version="1.0"/>
+</session>

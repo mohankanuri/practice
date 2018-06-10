@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.threads.ThreadsInterProcessCom&apos; to &apos;ThreadClass&apos;&#x0D;&#x0A;- Original project: &apos;ThreadsDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.threads.ThreadsInterProcessCom&apos;&#x0D;&#x0A;- Renamed element: &apos;com.threads.ThreadClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ThreadsInterProcessCom&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.threads{ThreadsInterProcessCom.java[ThreadsInterProcessCom" matchStrategy="1" name="ThreadClass" qualified="false" references="true" similarDeclarations="false" stamp="1525467247472" textual="false" version="1.0"/>
+</session>

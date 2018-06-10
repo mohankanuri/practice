@@ -1,0 +1,10 @@
+package com.riddle;
+
+import java.util.Scanner;
+
+public class ReadFile {
+public static void main(String[] args) {
+	Scanner inputFile = new Scanner(System.in);
+	File inputFile = new File("");
+}
+}

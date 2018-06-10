@@ -1,0 +1,7 @@
+package com.dao;
+
+public class UpdatingDB {
+	User obj = new User();
+	
+
+}

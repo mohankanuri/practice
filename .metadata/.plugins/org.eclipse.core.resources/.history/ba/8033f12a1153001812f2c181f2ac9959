@@ -1,0 +1,24 @@
+package com.riddle;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class NullPointerExcep {
+	public static void main(String[] args) {
+		ArrayList<String> str = new ArrayList<>(5);
+		str.add(0, "name0");
+		str.add(1, null);
+		str.add(2, "name2");
+		str.add(3, null);
+		str.add(4, "name4");
+		
+		System.out.println(str.toString()));
+		
+		//for(int i=0;i<5;i++) {}
+		for (int i = 0; i < str.size(); i++) {
+			System.out.println(str.get(i));
+		}
+		
+	}
+
+}

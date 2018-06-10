@@ -1,0 +1,16 @@
+package com.riddle;
+
+import java.io.FileNotFoundException;
+
+public class ReadFile {
+	public static void main(String[] args) throws FileNotFoundException {
+		StringBuffer z = new StringBuffer();
+		String str = "rice";
+		String str1 = "ice";
+		z.append(str);
+		System.out.println("String Buffer Z is appended with 'rice': " + z.toString());
+		z.delete(1, 4);
+		System.out.println("String Buffer Z after deleting 'ice': " + z.toString());
+		z.append(String s ="ice";);
+	}
+}

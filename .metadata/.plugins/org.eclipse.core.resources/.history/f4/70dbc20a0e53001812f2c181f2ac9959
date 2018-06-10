@@ -1,0 +1,11 @@
+package com.riddle;
+
+import java.util.ArrayList;
+
+public class NullPointerExcep {
+	public static void main(String[] args) {
+		ArrayList<String> str = new ArrayList<>(5);
+		str[0] ="Name1";
+	}
+
+}

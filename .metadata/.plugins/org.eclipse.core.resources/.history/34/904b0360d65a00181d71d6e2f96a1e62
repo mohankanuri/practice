@@ -1,0 +1,8 @@
+package com.dao;
+
+public class UpdatingDB {
+	String DB_URL = "";
+	String DB_user = "";
+	String DB_pass="";
+
+}

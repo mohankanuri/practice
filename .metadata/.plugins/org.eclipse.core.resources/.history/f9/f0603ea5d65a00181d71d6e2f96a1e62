@@ -1,0 +1,16 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class UpdatingDB {
+	private final static String DB_URL = "jdbc:mysql://localhost:3306/learnforlife";
+	private final static String DB_username = "root";
+	private final static String DB_password = "Mohan2636$";
+	
+	String sql = "insert into user_register(Name,Password,Email,Role) values(?,?,?,?)";
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con = DriverManager.getConnection(DB_URL, DB_username, DB_password);
+	
+	
+}

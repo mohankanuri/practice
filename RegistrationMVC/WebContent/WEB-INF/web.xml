@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>LoginMvc</display-name>
+  <welcome-file-list>
+    <welcome-file>Register.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Registration</display-name>
+    <servlet-name>registration</servlet-name>
+    <servlet-class>com.mvc.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registration</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.mvc.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Tutor</display-name>
+    <servlet-name>Tutor</servlet-name>
+    <servlet-class>com.mvc.controller.TutorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Tutor</servlet-name>
+    <url-pattern>/TutorServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>TutorcourseRegister</display-name>
+    <servlet-name>TutorcourseRegister</servlet-name>
+    <servlet-class>com.mvc.controller.TutorCourseServlet</servlet-class> 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorcourseRegister</servlet-name>
+    <url-pattern>/TutorCourseServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

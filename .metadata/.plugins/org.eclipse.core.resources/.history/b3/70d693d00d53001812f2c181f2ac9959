@@ -1,0 +1,8 @@
+package com.riddle;
+
+public class NullPointerExcep {
+	public static void main(String[] args) {
+		
+	}
+
+}

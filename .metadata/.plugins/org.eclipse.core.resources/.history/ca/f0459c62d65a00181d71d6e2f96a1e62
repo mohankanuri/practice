@@ -1,0 +1,7 @@
+package com.dao;
+
+public class UpdatingDB {
+	private final static String DB_URL = "jdbc:mysql://localhost:3306/testdb";
+	private final static String DB_username = "root";
+	private final static String DB_password = "Mohan2636$";
+}

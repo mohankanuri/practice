@@ -1,0 +1,7 @@
+package com.riddle;
+
+public class ReadFile {
+public static void main(String[] args) {
+	
+}
+}

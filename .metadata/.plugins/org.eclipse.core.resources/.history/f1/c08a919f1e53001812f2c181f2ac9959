@@ -1,0 +1,20 @@
+package com.riddle;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ReadFile {
+public static void main(String[] args) throws FileNotFoundException {
+	StringBuffer z = new StringBuffer();
+	z = "rice";
+	File inputFile = new File("C:\\Users\\mohan\\Documents\\numbers.txt");
+	Scanner in = new Scanner(inputFile);
+	while (in.hasNextDouble())
+	{
+	double value = in.nextDouble();
+	System.out.println(value);
+	}
+	in.close();
+}
+}

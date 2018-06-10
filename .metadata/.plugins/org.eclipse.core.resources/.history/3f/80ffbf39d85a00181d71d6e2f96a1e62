@@ -1,0 +1,14 @@
+package com.dao;
+
+import com.bean.User;
+
+public class UpdatingDB {
+	User obj = new User();
+	String username = obj.getUname();
+	String password = obj.getPassword();
+	String email = obj.getEmail();
+	String role = obj.getRole();
+	String gender = obj.getGender();
+	
+
+}
